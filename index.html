@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get Smokin' Portfolio</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+<link rel="stylesheet" href="https://use.typekit.net/rau6bmr.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+</head>
+<body>
+    <!-- initial H1 -->
+    <h1 class="hidden">Welcome To Get Smokin'</h1>
+
+    <!-- promo banner -->
+    <section id="promo">
+        <h2 class="hidden">PROMO</h2>
+        <p>JOIN OUR MAILING LIST TODAY & GET 10% OFF MERCH!</p>
+    </section>
+
+    <!-- main header -->
+    <header>
+        <img src="images/logo_v1.svg" alt="Get Smokin' logo" id="logo">
+        <div>
+            <nav id="mainNav">
+                <h3 class="hidden">Main Navigation</h3>
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">RECIPES</a></li>
+                    <li><a href="#">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <!-- main body content -->
+    <main>
+        <h2 class="hidden">Main Content of Get Smokin'</h1>
+        
+        <!-- this is the landing area -->
+        <section id="landing">
+            <div id="landingCon">
+                <h2>The Get Smokin' Photography Portfolio</h2>
+                <p>Being able to combine my two passions for food and photography has been a 
+                    dream for me, it allows me express all my creative abilities into a single photo.
+                     Browse some of my recent photos and read what makes each so special! 
+                </p>
+            </div>
+            <!-- <img src="images/brisket.jpg" alt="brisket" id="landingImg"> -->
+            <div id="recpGallery">
+                <h2 class="hidden">Photo Gallery</h2>
+                <img src="images/back.svg" alt="previous image" id="back">
+                <img src="images/next.svg" alt="next image" id="frwd">
+                <img
+                id="imgGallery"
+                sizes="100vw"
+                srcset="images/brisket.jpg,
+                src="images/brisket.jpg"
+                alt="brisket, sausage & chicken">	
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>Browse my 2021 Portfolio</h2>
+            <div id="portfolioCon">
+
+            </div>
+        </section>
+        
+
+        <!-- blog section to look nice  -->
+        <section id="blog">
+            <h2>THE BLOG</h2>
+            <p>
+                We post weekly blogs about tips and tricks
+                 to mastering live fire cooking. Explore some our recent blogs…  
+            </p>
+            <button id="blogBtn">▶   RECENT POST</button>
+        </section>
+
+        <!-- newsletter section for looks  -->
+        <section id="newsletter">
+            <h2>WEEKLY NEWSLETTER</h2>
+            <p>
+                We send out weekly newsletters
+                 via email about what is new in the smoking and barbecue world. Join our mailing list TODAY!   
+            </p>
+            <button id="newsBtn">▶   SIGN UP</button>
+        </section>
+    </main>
+    
+    <!-- this is the footer -->
+    <footer>
+        <p>DESIGNED & DEVELOPED BY GRAHAM VICKERS ©</p>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
